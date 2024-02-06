@@ -1,0 +1,111 @@
+/*-------------
+    RESET
+--------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*-------------
+    GENERAL
+--------------*/
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+}
+i, .discount, a{
+    color: #fff;
+    padding: 0 2px;
+}
+img{
+    max-width: 100%;
+}
+/*-------------
+    HEADER
+--------------*/
+header{
+    background-color: #ff6900;
+}
+.head-top{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.head-top > div{
+    color: #fff;
+}
+.head-top img{
+    max-width: 140px;
+    max-height: 30px;
+}
+/*-------------
+    MAIN
+--------------*/
+.col33{
+    width: calc(100% / 3);
+    padding: 40px 10px;
+ }
+ .main-img{
+    position: relative;
+ }
+ .main-img:hover .img-block{
+    display: none;
+ }
+ .img-hover{
+    display: none;
+ }
+ .main-img:hover .img-hover{
+    display: block;
+ }
+ .discount{
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+ }
+ .discount span{
+    font-size: 14px;
+    padding: 4px 4px;
+ }
+ .sconto{
+    background-color: red;
+ }
+ .info-product{
+    background-color: green;
+ }
+ .heart{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: white;
+    padding: 4px 6px;
+ }
+ .heart:hover{
+    color: red;
+ }
+ .price{
+    color: red;
+ }
+/*-------------
+    FOOTER
+--------------*/
+footer{
+    background-color: #1a1a1a;
+}
+.foot{
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.foot *{
+    color: white;
+}
+.foot h4{
+    margin-bottom: 8px;
+}
