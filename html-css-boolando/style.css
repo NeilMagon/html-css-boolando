@@ -27,6 +27,9 @@ i, .discount, a{
 img{
     max-width: 100%;
 }
+.deleted{
+    text-decoration: line-through;
+}
 /*-------------
     HEADER
 --------------*/
